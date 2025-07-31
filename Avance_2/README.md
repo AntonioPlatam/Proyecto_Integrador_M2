@@ -61,7 +61,7 @@ Las tablas de dimensiones sugeridas para desarrollar el **Ventas** son las sigui
 
 **a. Diseño Conceptual y Lógico:**
 
-![Diagrama ER](../docs/assets/diagrama_er.jpg)
+![Diagrama ER](../docs/assets/diagrama_er.png)
 
 Este repositorio incluye el diseño entidad-relación (ER) de una base de datos orientada a un sistema de comercio electrónico. El diagrama organiza y diferencia claramente entre:
 
@@ -117,7 +117,7 @@ Para manejar los cambios en las dimensiones a lo largo del tiempo, se implementa
 
 ### PI 4:  Modelo de Datos de Ventas
 
-![Diagrama ER](/docs/assets/dimensiones_diagrama.jpg)
+![Diagrama ER](/docs/assets/dimensiones_diagrama.png)
 
 Para el desarrollo de la tabla central `fact_ventas`, se opto por un modelo de **Esquema en Estrella** este diseño permite modelar las tablas de dimensiones ya que es facil y posee un alto remdimiento en consultas.
 
