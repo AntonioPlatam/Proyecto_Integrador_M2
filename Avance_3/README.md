@@ -1,4 +1,4 @@
-#  nforme Técnico: Avance 3 del Proyecto Integrador
+#  Informe Técnico: Avance 3 del Proyecto Integrador
 
 ## 1. Descripción General
 
