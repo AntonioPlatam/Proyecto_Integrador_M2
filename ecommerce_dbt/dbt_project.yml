@@ -1,0 +1,25 @@
+
+name: 'ecommerce_dbt'  # Nombre del proyecto DBT
+version: '1.0.0'       # Versión del proyecto
+
+profile: 'ecommerce_dbt'  # Nombre del perfil definido en ~/.dbt/profiles.yml
+
+# Rutas donde se encuentran los modelos, análisis, pruebas, datos semilla, macros y snapshots
+model-paths: ["models"]        # Carpeta donde estarán los modelos (.sql)
+analysis-paths: ["analyses"]   # Carpeta para análisis exploratorios
+test-paths: ["tests"]          # Carpeta para pruebas personalizadas
+seed-paths: ["seeds"]          # Carpeta para cargar datos planos o semillas (CSV)
+macro-paths: ["macros"]        # Carpeta para macros reutilizables
+snapshot-paths: ["snapshots"]  # Carpeta para versiones históricas de datos
+
+# Carpetas que se limpiarán al ejecutar `dbt clean`
+clean-targets:
+  - "target"         # Carpeta donde DBT guarda los archivos compilados y ejecutados
+  - "dbt_packages"   # Carpeta de paquetes instalados con `dbt deps`
+
+# Configuración general de los modelos dentro del proyecto
+models:
+  ecommerce_dbt:     # Aquí puedes configurar parámetros por defecto para los modelos de este proyecto
+    # Puedes agregar configuraciones como materializations, etiquetas, etc.
+    # ejemplo:
+    # +materialized: view
