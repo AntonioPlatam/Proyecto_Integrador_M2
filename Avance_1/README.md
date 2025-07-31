@@ -1,6 +1,6 @@
 # Avance 1 del Proyecto Integrador M2
 
-**Fase:** Avance 1 - Carga y Entendimiento de los Datos.
+**Carga y Entendimiento de los Datos.
 
 ### PI 1: Configuración del Entorno de Trabajo
 
