@@ -1,7 +1,5 @@
 # Avance 1 del Proyecto Integrador M2
 
-**Carga y Entendimiento de los Datos.
-
 ### PI 1: Configuración del Entorno de Trabajo
 
 **a. Instalación y Configuración:**
