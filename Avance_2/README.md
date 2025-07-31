@@ -1,6 +1,4 @@
-# Informe de Avance 2: Diseño del Modelo de Datos
-
-**Fase:** Avance 2 - Análisis de Negocio y Diseño Dimensional
+# Avance 2: Diseño del Modelo de Datos
 
 ### PI 1: Análisis de Negocio y Descubrimiento de Requisitos
 
